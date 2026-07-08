@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+}
+
+#idioma{
+    
+    display: inline-block;
+}
+
+#idioma p{
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+#idioma img{
+    width: 50px;
+    height: 30px;
+}
