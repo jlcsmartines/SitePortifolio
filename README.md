@@ -6,7 +6,7 @@ Site portifólio criado com o objetivo de melhorar minha programação em FrontE
 
 ## 📋 Sobre o Projeto
 
-Um site criado tanto em português quanto em ingês com o objetivo de demonstrar minhas habilidades em programação.
+Um site criado tanto em português quanto em inglês com o objetivo de demonstrar minhas habilidades em programação.
 
 ### 🎯 Objetivo
 
