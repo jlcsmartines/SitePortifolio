@@ -11,7 +11,7 @@ Um site criado tanto em português quanto em inglês com o objetivo de demonstra
 ### 🎯 Objetivo
 
 - **Organizar** Buscar a melhor organização para meus códigos visando deixar comentários facilitando a compreensão destes
-- **Demosntrar** Minha habilidades em FrontEnd e em meus projetos BackEnd
+- **Demonstrar** Minha habilidades em FrontEnd e em meus projetos BackEnd
 - **Melhorar** Visando uma melhora constante do meu código refinando ele junto a minhas habilidades
 
 ---
