@@ -118,7 +118,7 @@ Se você gostou deste projeto, considere:
 
 ---
 
-**SITE PORTIFÓLIO** 🚀
+**SITE PORTIFÓLIO** 💻
 
 *Última atualização: Julho de 2026*
 ```
