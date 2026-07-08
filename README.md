@@ -118,7 +118,7 @@ Se você gostou deste projeto, considere:
 
 ---
 
-**Sistema de Chamados TI** 🚀
+**SITE PORTIFÓLIO** 🚀
 
-*Última atualização: Junho de 2026*
+*Última atualização: Julho de 2026*
 ```
