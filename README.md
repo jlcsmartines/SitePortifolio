@@ -31,7 +31,7 @@ Um site criado tanto em português quanto em inglês com o objetivo de demonstra
 
 ## 📝 Melhorias Futuras
 
-- [ ] 
+- [ ] Refinar sessão início (Adicionar efeito a foto, botões etc...)
 - [ ] 
 - [ ] 
 
@@ -98,7 +98,7 @@ of this software and associated documentation files...
 
 Todas as funcionalidades planejadas foram implementadas:
 - ✅ Criar Base HTML/CSS para início do projeto
-- ⬜ Adicionar section inicio
+- ✅ Adicionar section inicio
 - ⬜ Adicionar section curriculum
 - ⬜ Adicionar section sobre
 - ⬜ Adicionar section projetos
