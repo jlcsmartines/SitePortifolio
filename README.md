@@ -32,6 +32,7 @@ Um site criado tanto em português quanto em inglês com o objetivo de demonstra
 ## 📝 Melhorias Futuras
 
 - [ ] Refinar sessão início ('Adicionar efeito a foto, botões etc...')
+- [ ] A DEFINIR
 
 ---
 
