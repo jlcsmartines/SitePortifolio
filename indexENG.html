@@ -1,183 +1,122 @@
-/*
--- Reset geral --
-*/
+<!DOCTYPE html>
+<html lang="en">
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - João Lucas Martines</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
 
-/*
--- Body | Header | Nav --
-*/
+<body>
 
-body {
-    background-color: #F4E7DE;
-    scroll-behavior: smooth; /* Deixa a rolagem suave ao clicar nos links do menu */
-}
+    <header>
+        <nav>
+            <div id="links">
+                <a href="#sec_inicio">Home</a>
+                <a href="#sec_curriculo">Curriculum Vitae</a>
+                <a href="#sec_sobre">About</a>
+                <a href="#sec_projetos">Projects</a>
+                <a href="#sec_certificados">Certificates</a>
+                <a href="#sec_contato">Contact</a>
+            </div>
 
-header {
-    background-color: #d0c7c1c5; /* Opacidade ajustada para melhorar a visibilidade */
-    width: 100%;
-    position: fixed; /* Fixa a barra no topo */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Garante que o menu fique por cima de todo o conteúdo */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque e profundidade */
-    backdrop-filter: blur(5px); /* Desfoca levemente o fundo atrás da barra */
-}
+            <div id="idioma">
+                <a title="Change to Brazilian Portuguese" href="indexPTBR.html">
+                    <img src="img/brasil.png" alt="Brazil Flag">
+                    <p>Portuguese</p>
+                </a>
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Empurra os links para a esquerda e o idioma para a direita */
-    width: 100%;
-    padding: 20px 15%; /* Alinha o menu com a margem do conteúdo */
-}
+                <a title="Current language" href="#">
+                    <img src="img/usa.png" alt="USA Flag">
+                    <p>EN-US</p>
+                </a>
+            </div>
+        </nav>
+    </header>
 
-#links {
-    display: flex;
-    gap: 20px; /* Espaçamento uniforme entre os links */
-}
+    <main>
 
-/*
--- Troca de idiomas | Header --
-*/
+        <!-- Start home -->
+        <section id="sec_inicio">
+            <div class="div_inicio">
 
-#idioma {
-    display: flex;
-    gap: 15px; /* Espaço entre as opções de idioma */
-}
+                <!-- Home | Texts & Buttons -->
+                <div class="text_inicio">
 
-#idioma a {
-    display: flex;
-    align-items: center;
-    text-decoration: none; /* Remove o sublinhado das bandeiras */
-}
+                    <!-- Home | Texts -->
+                    <h1>
+                        Hi, my name is <br>
+                        <span class="inicio_destaque">João Lucas Martines</span>
+                    </h1>
+                    <p class="inicio_curso">
+                        Information Systems Student | <br> Full-stack developer
+                    </p>
+                    <p class="inicio_foco">
+                        I seek to develop practical and intuitive solutions.
+                    </p>
 
-#idioma p {
-    margin-left: 5px; /* Afasta levemente o texto da imagem da bandeira */
-}
+                    <!-- Home | Buttons -->
+                    <a href="#sec_projetos">
+                        <button class="inicio_projetos">
+                            View projects
+                        </button>
+                    </a>
+                    <a href="#sec_contato">
+                        <button class="inicio_contato">
+                            Contact
+                        </button>
+                    </a>
 
-#idioma img {
-    width: 25px;
-    height: 15px;
-}
+                </div>
 
-/*
--- Textos | Span --
-*/
+                <!-- Home | Photo -->
+                <div class="pic_inicio">
+                    <img class="inicio_fotoEu" src="img/Eu.png" alt="My professional photo">
+                </div>
 
-h1, h2, h3, h4, h5, h6, small, p, a {
-    color: burlywood;
-    text-decoration: none; /* Remove o sublinhado padrão de todos os links */
-}
+            </div>
+        </section><!-- End home -->
 
-.inicio_destaque {
-    color: #6F4E37;
-}
 
-/* 
--- Efeitos de Hover no NAV -- 
-*/
 
-/* Transição suave para os links e opções de idioma */
-#links a, #idioma a {
-    transition: transform 0.2s ease-in-out, color 0.2s ease;
-    display: inline-block; /* Necessário para o efeito scale funcionar perfeitamente */
-}
+        <!-- Start curriculum -->
+        <section id="sec_curriculo">
 
-/* Efeito ao passar o mouse nos links (Início, Sobre, etc.) */
-#links a:hover {
-    transform: scale(1.05); /* Faz o link crescer 5% */
-    color: #6F4E37; /* Muda a cor para o marrom de destaque */
-}
+        </section><!-- End curriculum -->
 
-/* Efeito ao passar o mouse nas opções de idioma */
-#idioma a:hover {
-    transform: scale(1.05); /* Faz o conjunto crescer 5% */
-}
 
-#idioma a:hover p {
-    color: #6F4E37; /* Altera apenas o texto do idioma para o marrom de destaque */
-}
 
-/*
--- Section inicio --
-*/
+        <!-- Start about -->
+        <section id="sec_sobre">
 
-    #sec_inicio {
-        width: 100%;
-        min-height: 100vh; /* Ocupa toda a altura da tela */
-        display: flex;
-        align-items: center; /* Centraliza o conteúdo verticalmente */
-        padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
-    }
+        </section><!-- End about -->
 
-    .div_inicio {
-        width: 100%;
-        font-size: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 15%; /* Centraliza o conteúdo nas laterais de forma limpa */
-    }
 
-    /* 
-    -- Espaçamento nos Textos de Apresentação -- 
-    */
 
-    /* Dá um espaço abaixo do título principal */
-    .text_inicio h1, .text_inicio .inicio_apresentacao {
-    padding-bottom: 15px; 
-    }
+        <!-- Start projects -->
+        <section id="sec_projetos">
 
-    /* Dá um espaço abaixo do texto do curso */
-    .text_inicio .inicio_curso {
-        padding-bottom: 12px;
-    }
+        </section><!-- End projects -->
 
-    /* Dá um espaço um pouco maior abaixo da frase de foco para afastar os botões */
-    .text_inicio .inicio_foco {
-        padding-bottom: 25px;
-    }
 
-    .pic_inicio {
-        margin-left: 0;
-        margin-right: 0;
-    }
 
-    .pic_inicio img {
-        width: 225px;
-        height: 300px;
-        border-radius: 400px;
-        box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.2);
-    }
+        <!-- Start certificates -->
+        <section id="sec_certificados">
 
-    .text_inicio button {
-        background-color: rgba(0, 0, 0, 0.0);
-        padding: 12px 30px;
-        border: #6F4E37 2px solid;
-        color: burlywood;
-        font-size: 20px;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: transform 0.2s ease-in-out, background-color 0.3s ease; /* Suaviza as animações do botão */
-    }
+        </section><!-- End certificates -->
 
-    /* Efeito de hover atualizado para o botão crescer */
-    .text_inicio button:hover {
-        transform: scale(1.05); /* Faz o botão crescer 5% */
-        background-color: rgba(111, 78, 55, 0.1); /* Dá um leve fundo de destaque */
-    }
 
-/*
--- Section Curriculo --
-*/
 
-    #sec_curriculo {
-        width: 100%;
-        min-height: 100vh;
-    }
+        <!-- Start contact -->
+        <section id="sec_contato">
 
+        </section><!-- End contact -->
+
+
+
+    </main>
+
+</body>
+
+</html>
