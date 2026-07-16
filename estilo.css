@@ -70,7 +70,7 @@ nav {
 */
 
 h1, h2, h3, h4, h5, h6, small, p, a {
-    color: burlywood;
+    color: #deb887;
     text-decoration: none; /* Remove o sublinhado padrão de todos os links */
 }
 
@@ -158,6 +158,7 @@ h1, h2, h3, h4, h5, h6, small, p, a {
     .text_inicio button {
         background-color: rgba(0, 0, 0, 0.0);
         padding: 12px 30px;
+        margin: 0 10px 5px 0; /* Margin adicionado para quando diminuir a pág os botões não se sobreporem */
         border: #6F4E37 2px solid;
         color: burlywood;
         font-size: 20px;
@@ -180,4 +181,15 @@ h1, h2, h3, h4, h5, h6, small, p, a {
         width: 100%;
         min-height: 100vh;
     }
+    
+/*
+-- Section Sobre --
+*/
+
+    #sec_sobre {
+        width: 100%;
+        min-height: 100vh;
+        padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
+    }
+
 
