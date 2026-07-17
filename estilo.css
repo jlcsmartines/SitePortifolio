@@ -189,7 +189,118 @@ h1, h2, h3, h4, h5, h6, small, p, a {
     #sec_sobre {
         width: 100%;
         min-height: 100vh;
+        display: flex;
+        align-items: center;
         padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
     }
 
+    .div_sobre {
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        align-items: stretch; /* Faz as duas caixas (esquerda/direita) terem a mesma altura */
+        justify-content: space-between;
+        padding: 40px 15%; /* Centraliza o conteúdo nas laterais de forma limpa */
+        gap: 30px; /* Espaço seguro entre os blocos */
+    }
 
+    /* --- LADO ESQUERDO (Apresentação) --- */
+    .apresentacao_sobre {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(208, 199, 193, 0.25); /* Fundo sutil para o bloco esquerdo */
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Sombra quase imperceptível para dar profundidade */
+    }
+
+    /* Texto de resumo */
+    .apresentacao_sobre .paragrafo_sobre {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Container que organiza a grade dos mini-cartões da esquerda */
+    .container_cards_esq {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        gap: 12px;
+        margin-top: auto; /* Empurra os cartões para a base do bloco, alinhando com a direita */
+    }
+    
+    /* Cartões de apresentação com CORES INVERTIDAS */
+    .sobre_card {
+        background-color: #795c47; /* Fundo agora é o marrom de destaque */
+        padding: 12px 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .sobre_card p {
+        color: #F4E7DE;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* Força os ícones normais do Font Awesome a ficarem claros dentro do cartão */
+    .sobre_card p i {
+        color: #F4E7DE;
+    }
+
+    /* --- LADO DIREITO (Tecnologias) --- */
+    .tecnologias_sobre {
+        width: 50%;
+        background-color: rgba(208, 199, 193, 0.25); /* Mesmo fundo sutil aplicado aqui */
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tecnologias_sobre h2 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    /* Container que organiza a grade de tecnologias da direita */
+    .container_tecs_dir {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        gap: 12px;
+    }
+
+    /* Cartões de tecnologias com CORES INVERTIDAS */
+    .sobre_tec {
+        background-color: #795c47; /* Fundo marrom escuro */
+        padding: 12px 15px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+    }
+
+    .sobre_tec p {
+        color: #F4E7DE; /* Texto claro */
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    /* Garante que os ícones coloridos de marcas fiquem brancos/claros para dar contraste no fundo marrom */
+    .sobre_tec p i {
+        color: #F4E7DE !important; /* O !important garante que o tom claro venha acima do style do HTML */
+    }
+
+    /* Efeito de hover atualizado para os novos cartões escuros */
+    .sobre_tec:hover {
+        transform: translateY(-3px);
+        background-color: #553c2a; /* Escurece um tom do marrom ao passar o mouse */
+    }
