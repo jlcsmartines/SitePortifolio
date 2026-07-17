@@ -1,25 +1,31 @@
-# 🖥️ Site portifólio
+# 🖥️ Site Portfolio
 
-Site portifólio criado com o objetivo de melhorar minha programação em FrontEnd e de demonstrar minhas habilidades.
+Site portfolio criado com o objetivo de aprimorar minhas habilidades em desenvolvimento Front-End e demonstrar meus projetos e competências técnicas.
 
 ---
 
 ## 📋 Sobre o Projeto
 
-Um site criado tanto em português quanto em inglês com o objetivo de demonstrar minhas habilidades em programação.
+Um site responsivo estruturado tanto em português quanto em inglês (multi-idioma) com foco na apresentação profissional, clareza de código e boa semântica.
 
 ### 🎯 Objetivo
 
-- **Organizar** Buscar a melhor organização para meus códigos visando deixar comentários facilitando a compreensão destes
-- **Demonstrar** Minha habilidades em FrontEnd e em meus projetos BackEnd
-- **Melhorar** Visando uma melhora constante do meu código refinando ele junto a minhas habilidades
+- **Organização:** Buscar a melhor arquitetura e legibilidade para os códigos, utilizando comentários estruturados para facilitar a manutenção.
+- **Demonstração:** Exibir de forma clara minhas competências no Front-End e futuros projetos de integração Back-End.
+- **Evolução:** Manter um processo de melhoria contínua, refinando o layout, contraste e experiência do usuário (UX) com base em boas práticas de mercado.
+
+---
+
+## 💻 Aos amigos Devs
+
+Sintam-se livres para usar a base do código e fazer suas modificações caso queiram. Comecei este projeto como um estudo focado em Web, e aproveitei para juntar o útil ao agradável: acelerar meu aprendizado e, ao mesmo tempo, construir um portfólio bacana, limpo e interativo.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 | Tecnologia | Finalidade |
-|------------|------------|
+| :--- | :--- |
 | **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
 | **Backend** | Node.js, Express |
 | **Banco de Dados** | MySQL |
@@ -29,20 +35,24 @@ Um site criado tanto em português quanto em inglês com o objetivo de demonstra
 
 ---
 
-## 📝 Melhorias Futuras
+## 📝 Próximas Metas & Melhorias
 
-- [ ] Refinar sessão início ('Adicionar efeito a foto, botões etc...')
-- [ ] A DEFINIR
+- [ ] Correção de contraste e legibilidade dos blocos explicativos nas sessões.
+- [ ] Inversão cromática e estilização em grade (Grid Layout) para os cartões de tecnologias.
+- [ ] Sincronização e tradução completa do arquivo internacional (`indexENG.html`).
+- [ ] Implementação e estilização da seção **Projetos** (cards interativos).
+- [ ] Implementação da seção **Certificados** e formulário/links de **Contato**.
+- [ ] Otimização para dispositivos móveis (Responsividade/Mobile First).
 
 ---
 
 ## 🤝 Contribuição
 
-Este é um projeto independente para estudo, mas contribuições são bem-vindas!
+Este é um projeto independente para estudo, mas feedbacks e contribuições são super bem-vindos!
 
 1. Faça um **Fork** do projeto
 2. Crie uma **Branch** (`git checkout -b feature/melhoria`)
-3. Commit suas alterações (`git commit -m 'Adiciona melhoria'`)
+3. Commit suas alterações (`git commit -m 'Adiciona melhoria X'`)
 4. Push para a Branch (`git push origin feature/melhoria`)
 5. Abra um **Pull Request**
 
@@ -51,73 +61,3 @@ Este é um projeto independente para estudo, mas contribuições são bem-vindas
 ## 📄 Licença
 
 Este projeto está sob a licença **MIT** - sinta-se livre para usar, modificar e distribuir.
-
-```
-MIT License
-
-Copyright (c) 2026 Projeto Independente
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files...
-```
-
----
-
-## 👨‍💻 Autor
-
-**João Lucas Martines**
-
-- GitHub: [@jlcsmartines](https://github.com/jlcsmartines)
-- LinkedIn: [João Lucas Martines](https://www.linkedin.com/in/joão-lucas-martines/)
-- Email: joaolucas17032003@outlook.com
-
----
-
-## 🙏 Agradecimentos
-
-- **Chart.js** - Biblioteca de gráficos
-- **Font Awesome** - Ícones
-- **Comunidade de desenvolvedores** - Suporte e inspiração
-
----
-
-## 💡 Curiosidades
-
-- 
-- 
-- 
-- 
-
----
-
-## 📈 Status do Projeto
-
-✅ **CONCLUÍDO**
-⬜ **PENDENTE**
-
-Todas as funcionalidades planejadas foram implementadas:
-- ✅ Criar Base HTML/CSS para início do projeto
-- ✅ Adicionar section inicio
-- ⬜ Adicionar section curriculum
-- ⬜ Adicionar section sobre
-- ⬜ Adicionar section projetos
-- ⬜ Adicionar section certificados
-- ⬜ Adicionar section contato
-- ⬜ Finalização do HTML
-- ⬜ Finalização do CSS
-
----
-
-## ⭐ Avalie o Projeto
-
-Se você gostou deste projeto, considere:
-- Deixar uma ⭐ no **GitHub**
-- Compartilhar com outros desenvolvedores
-- Fazer um **fork** e criar sua própria versão
-
----
-
-**SITE PORTIFÓLIO** 💻
-
-*Última atualização: Julho de 2026*
-```
