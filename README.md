@@ -1,24 +1,25 @@
-# 🖥️ Site Portfolio
+# 🖥️ Portfolio Website | Portfólio João Lucas Martines
 
-Site portfolio criado com o objetivo de aprimorar minhas habilidades em desenvolvimento Front-End e demonstrar meus projetos e competências técnicas.
+Site portfólio criado com o objetivo de aprimorar minhas habilidades em desenvolvimento Web/Front-End, demonstrar meus projetos e apresentar minhas competências técnicas e trajetória profissional.
 
 ---
 
 ## 📋 Sobre o Projeto
 
-Um site responsivo estruturado tanto em português quanto em inglês (multi-idioma) com foco na apresentação profissional, clareza de código e boa semântica.
+Um site responsivo e bilíngue (Português e Inglês) estruturado com foco na apresentação profissional, clareza de código, acessibilidade e boa semântica HTML.
 
 ### 🎯 Objetivo
 
-- **Organização:** Buscar a melhor arquitetura e legibilidade para os códigos, utilizando comentários estruturados para facilitar a manutenção.
-- **Demonstração:** Exibir de forma clara minhas competências no Front-End e futuros projetos de integração Back-End.
-- **Evolução:** Manter um processo de melhoria contínua, refinando o layout, contraste e experiência do usuário (UX) com base em boas práticas de mercado.
+- **Arquitetura & Organização:** Manter uma estrutura limpa de código, utilizando comentários descritivos para facilitar a manutenção e escalabilidade.
+- **Demonstração de Competências:** Exibir de forma clara minhas habilidades Front-End, conhecimentos em linguagem C/Python e projetos práticos.
+- **Internacionalização:** Garantir paridade completa entre a versão em português (`indexPTBR.html`) e a versão internacional (`indexENG.html`).
+- **Evolução Contínua:** Aperfeiçoar constantemente o layout, a experiência do usuário (UX) e a responsividade em múltiplos dispositivos.
 
 ---
 
 ## 💻 Aos amigos Devs
 
-Sintam-se livres para usar a base do código e fazer suas modificações caso queiram. Comecei este projeto como um estudo focado em Web, e aproveitei para juntar o útil ao agradável: acelerar meu aprendizado e, ao mesmo tempo, construir um portfólio bacana, limpo e interativo.
+Sintam-se livres para usar a base do código e fazer suas modificações! Comecei este projeto como um estudo de desenvolvimento Web e aproveitei para construir um portfólio limpo, moderno e interativo.
 
 ---
 
@@ -27,33 +28,32 @@ Sintam-se livres para usar a base do código e fazer suas modificações caso qu
 | Tecnologia | Finalidade |
 | :--- | :--- |
 | **Frontend** | HTML5, CSS3, JavaScript (ES6+) |
-| **Backend** | Node.js, Express |
-| **Banco de Dados** | MySQL |
-| **Estilização** | CSS3 com Glassmorphism |
-| **Ícones** | Font Awesome |
-| **Hospedagem** | Vercel / Localhost |
+| **Estilização** | CSS3 com Flexbox, CSS Grid Layout e Glassmorphism |
+| **Ícones** | Font Awesome (v6.5.1) |
+| **Armazenamento de Arquivos** | Google Drive (PDFs de currículo e certificados) |
+| **Hospedagem** | Vercel / GitHub Pages |
 
 ---
 
 ## 📝 Próximas Metas & Melhorias
 
-- [ ] Correção de contraste e legibilidade dos blocos explicativos nas sessões.
-- [ ] Inversão cromática e estilização em grade (Grid Layout) para os cartões de tecnologias.
-- [ ] Sincronização e tradução completa do arquivo internacional (`indexENG.html`).
-- [ ] Implementação e estilização da seção **Projetos** (cards interativos).
-- [ ] Implementação da seção **Certificados** e formulário/links de **Contato**.
-- [ ] Otimização para dispositivos móveis (Responsividade/Mobile First).
+- [x] Sincronização e tradução completa do arquivo internacional (`indexENG.html`).
+- [x] Implementação e estilização das seções de **Projetos** e **Certificados**.
+- [x] Implementação da seção de **Contato** com suporte direto ao WhatsApp.
+- [ ] Inserção das imagens finais/previews dos projetos nos cards.
+- [ ] Otimização para dispositivos móveis (Refinamento Mobile-First / Media Queries).
+- [ ] Implementação de modo escuro/claro (*Dark Mode Toggle* via JS).
 
 ---
 
 ## 🤝 Contribuição
 
-Este é um projeto independente para estudo, mas feedbacks e contribuições são super bem-vindos!
+Este é um projeto pessoal, mas feedbacks, sugestões e contribuições são sempre muito bem-vindos!
 
 1. Faça um **Fork** do projeto
-2. Crie uma **Branch** (`git checkout -b feature/melhoria`)
+2. Crie uma **Branch** (`git checkout -b feature/minha-melhoria`)
 3. Commit suas alterações (`git commit -m 'Adiciona melhoria X'`)
-4. Push para a Branch (`git push origin feature/melhoria`)
+4. Push para a Branch (`git push origin feature/minha-melhoria`)
 5. Abra um **Pull Request**
 
 ---
@@ -68,39 +68,41 @@ Este projeto está sob a licença **MIT** - sinta-se livre para usar, modificar 
 
 **João Lucas Martines**
 
-- GitHub: [@jlcsmartines](https://github.com/jlcsmartines)
-- LinkedIn: [João Lucas Martines](https://www.linkedin.com/in/joão-lucas-martines/)
-- Email: joaolucucas17032003@gmail.com
+- **GitHub:** [@jlcsmartines](https://github.com/jlcsmartines)
+- **LinkedIn:** [João Lucas Martines](https://www.linkedin.com/in/joão-lucas-martines/)
+- **WhatsApp:** [+55 (17) 98827-9920](https://wa.me/5517988279920)
+- **Email:** joaolucas17032003@gmail.com
 
 ---
 
 ## 🙏 Agradecimentos
 
-- **Font Awesome** - Biblioteca de ícones.
-- **Comunidade de Desenvolvedores** - Suporte, documentações e inspiração técnica.
+- **Font Awesome** — Pela biblioteca incrível de ícones.
+- **Comunidade Dev** — Pelo suporte, documentações e inspiração contínua.
 
 ---
 
-## 💡 Curiosidades
+## 💡 Curiosidades do Desenvolvimento
 
-- Eu pretendia montar uma seção exclusiva para exibir o currículo direto na página, mas cheguei à conclusão de que a experiência do usuário seria muito superior hospedando o arquivo PDF em uma pasta na nuvem e adicionando um botão dinâmico com `target="_blank"` no menu global.
-- A seção "Sobre" foi inteiramente projetada usando **CSS Grid Layout** para que os cartões de habilidades fiquem perfeitamente alinhados de dois em dois, o que significa que o layout é escalável e nunca vai quebrar se eu adicionar novas ferramentas no futuro.
-- O projeto usa uma técnica de isolamento no CSS (`!important` nos caminhos das fontes) para padronizar os ícones em um tom bege claro sutil, garantindo contraste perfeito e legibilidade em qualquer tela, mesmo usando logotipos de marcas com cores originalmente diferentes.
+- **Acessibilidade do Currículo:** Optei por hospedar os PDFs do currículo (versões PT-BR e EN-US) na nuvem e vincular botões dinâmicos com `target="_blank"`. Isso permite que o visitante visualize ou baixe o arquivo atualizado sem sair do site.
+- **Organização da Seção "Sobre":** Utiliza **CSS Grid Layout** para que a grade de tecnologias e cartões informativos seja fluida e escalável.
+- **Padronização Visual:** O CSS utiliza estilos de sobreposição e paleta direcionada aos ícones do Font Awesome para garantir um tom harmonioso e elegante por toda a página.
 
 ---
 
 ## 📈 Status do Projeto
 
-⚠️ **EM DESENVOLVIMENTO**
+✅ **VERSÃO INICIAL CONCLUÍDA** *(Com melhorias contínuas)*
 
 Acompanhamento do progresso das seções do site:
-- [x] Criar Base HTML/CSS para início do projeto
-- [x] Adicionar section início (Layout e foto de perfil)
-- [x] Adicionar section sobre (Apresentação e grade de competências)
-- [ ] Adicionar section projetos
-- [ ] Adicionar section certificados
-- [ ] Adicionar section contato
-- [ ] Finalização e refatoração completa do CSS geral
+- [x] Criar Base HTML/CSS e estruturação geral do projeto
+- [x] Seção **Início** (Apresentação, foto de perfil e call-to-action)
+- [x] Seção **Sobre** (Bio e grade de competências/tecnologias)
+- [x] Seção **Projetos** (Cards estruturados para repositórios e Demos)
+- [x] Seção **Certificados** (Integrada com visualização de PDFs)
+- [x] Seção **Contato** (Email, LinkedIn, GitHub e WhatsApp)
+- [x] Tradução e sincronização completa para o inglês (`indexENG.html`)
+- [ ] Ajustes finos de responsividade mobile
 
 ---
 
@@ -108,11 +110,10 @@ Acompanhamento do progresso das seções do site:
 
 Se você gostou deste projeto ou achou a estrutura útil para os seus estudos, considere:
 - Deixar uma ⭐ no **GitHub**
-- Compartilhar com outros desenvolvedores iniciantes
-- Fazer um **fork** e criar a sua própria versão customizada
+- Compartilhar com outros desenvolvedores
+- Fazer um **fork** e criar sua própria versão!
 
 ---
 
-**SITE PORTFOLIO** 💻
-
-*Última atualização: Julho de 2026*
+**PORTFÓLIO WEB** 💻  
+*Última atualização: Agosto de 2026*
