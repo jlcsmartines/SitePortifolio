@@ -1,5 +1,4 @@
 {
-  //Para fazer o versel reconhecer o indexPTBR como index principal e manter as nomeclaturas
   "rewrites": [
     { "source": "/", "destination": "/indexPTBR.html" }
   ]
