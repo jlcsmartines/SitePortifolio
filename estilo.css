@@ -78,6 +78,13 @@ h1, h2, h3, h4, h5, h6, small, p, a {
     color: #6F4E37;
 }
 
+.titulo_secao {
+    font-size: 32px;
+    color: #6F4E37;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* 
 -- Efeitos de Hover no NAV -- 
 */
@@ -107,200 +114,443 @@ h1, h2, h3, h4, h5, h6, small, p, a {
 -- Section inicio --
 */
 
-    #sec_inicio {
-        width: 100%;
-        min-height: 100vh; /* Ocupa toda a altura da tela */
-        display: flex;
-        align-items: center; /* Centraliza o conteúdo verticalmente */
-        padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
-    }
+#sec_inicio {
+    width: 100%;
+    min-height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
+}
 
-    .div_inicio {
-        width: 100%;
-        font-size: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 15%; /* Centraliza o conteúdo nas laterais de forma limpa */
-    }
+.div_inicio {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15%; /* Centraliza o conteúdo nas laterais de forma limpa */
+}
 
-    /* 
-    -- Espaçamento nos Textos de Apresentação -- 
-    */
-
-    /* Dá um espaço abaixo do título principal */
-    .text_inicio h1, .text_inicio .inicio_apresentacao {
+/* Espaçamento nos Textos de Apresentação */
+.text_inicio h1, .text_inicio .inicio_apresentacao {
     padding-bottom: 15px; 
-    }
+}
 
-    /* Dá um espaço abaixo do texto do curso */
-    .text_inicio .inicio_curso {
-        padding-bottom: 12px;
-    }
+.text_inicio .inicio_curso {
+    padding-bottom: 12px;
+}
 
-    /* Dá um espaço um pouco maior abaixo da frase de foco para afastar os botões */
-    .text_inicio .inicio_foco {
-        padding-bottom: 25px;
-    }
+.text_inicio .inicio_foco {
+    padding-bottom: 25px;
+}
 
-    .pic_inicio {
-        margin-left: 0;
-        margin-right: 0;
-    }
+.pic_inicio {
+    margin-left: 0;
+    margin-right: 0;
+}
 
-    .pic_inicio img {
-        width: 225px;
-        height: 300px;
-        border-radius: 400px;
-        box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.2);
-    }
+.pic_inicio img {
+    width: 225px;
+    height: 300px;
+    border-radius: 400px;
+    box-shadow: 6px 6px 2px 0px rgba(0, 0, 0, 0.2);
+}
 
-    .text_inicio button {
-        background-color: rgba(0, 0, 0, 0.0);
-        padding: 12px 30px;
-        margin: 0 10px 5px 0; /* Margin adicionado para quando diminuir a pág os botões não se sobreporem */
-        border: #6F4E37 2px solid;
-        color: burlywood;
-        font-size: 20px;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: transform 0.2s ease-in-out, background-color 0.3s ease; /* Suaviza as animações do botão */
-    }
+.text_inicio button {
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 12px 30px;
+    margin: 0 10px 5px 0;
+    border: #6F4E37 2px solid;
+    color: burlywood;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+}
 
-    /* Efeito de hover atualizado para o botão crescer */
-    .text_inicio button:hover {
-        transform: scale(1.05); /* Faz o botão crescer 5% */
-        background-color: rgba(111, 78, 55, 0.1); /* Dá um leve fundo de destaque */
-    }
+.text_inicio button:hover {
+    transform: scale(1.05);
+    background-color: rgba(111, 78, 55, 0.1);
+}
 
 /*
 -- Section Curriculo --
 */
 
-    #sec_curriculo {
-        width: 100%;
-        min-height: 100vh;
-    }
+#sec_curriculo {
+    width: 100%;
+    min-height: 100vh;
+}
     
 /*
 -- Section Sobre --
 */
 
-    #sec_sobre {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        padding-top: 80px; /* Compensação para a barra de navegação fixa não tapar o texto */
-    }
+#sec_sobre {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
 
-    .div_sobre {
-        width: 100%;
-        font-size: 20px;
-        display: flex;
-        align-items: stretch; /* Faz as duas caixas (esquerda/direita) terem a mesma altura */
-        justify-content: space-between;
-        padding: 40px 15%; /* Centraliza o conteúdo nas laterais de forma limpa */
-        gap: 30px; /* Espaço seguro entre os blocos */
-    }
+.div_sobre {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 40px 15%;
+    gap: 30px;
+}
 
-    /* --- LADO ESQUERDO (Apresentação) --- */
-    .apresentacao_sobre {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(208, 199, 193, 0.25); /* Fundo sutil para o bloco esquerdo */
-        padding: 30px;
-        border-radius: 20px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03); /* Sombra quase imperceptível para dar profundidade */
-    }
+/* LADO ESQUERDO (Apresentação) */
+.apresentacao_sobre {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(208, 199, 193, 0.25);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
 
-    /* Texto de resumo */
-    .apresentacao_sobre .paragrafo_sobre {
-        line-height: 1.6;
-        margin-bottom: 20px;
-    }
+.apresentacao_sobre .paragrafo_sobre {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
 
-    /* Container que organiza a grade dos mini-cartões da esquerda */
-    .container_cards_esq {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-        gap: 12px;
-        margin-top: auto; /* Empurra os cartões para a base do bloco, alinhando com a direita */
-    }
-    
-    /* Cartões de apresentação com CORES INVERTIDAS */
-    .sobre_card {
-        background-color: #795c47; /* Fundo agora é o marrom de destaque */
-        padding: 12px 15px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
+.container_cards_esq {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: auto;
+}
 
-    .sobre_card p {
-        color: #F4E7DE;
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
+.sobre_card {
+    background-color: #795c47;
+    padding: 12px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-    /* Força os ícones normais do Font Awesome a ficarem claros dentro do cartão */
-    .sobre_card p i {
-        color: #F4E7DE;
-    }
+.sobre_card p {
+    color: #F4E7DE;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
-    /* --- LADO DIREITO (Tecnologias) --- */
-    .tecnologias_sobre {
-        width: 50%;
-        background-color: rgba(208, 199, 193, 0.25); /* Mesmo fundo sutil aplicado aqui */
-        padding: 30px;
-        border-radius: 20px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
-        display: flex;
-        flex-direction: column;
-    }
+.sobre_card p i {
+    color: #F4E7DE;
+}
 
-    .tecnologias_sobre h2 {
-        font-size: 28px;
-        margin-bottom: 25px;
-    }
+/* LADO DIREITO (Tecnologias) */
+.tecnologias_sobre {
+    width: 50%;
+    background-color: rgba(208, 199, 193, 0.25);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+}
 
-    /* Container que organiza a grade de tecnologias da direita */
-    .container_tecs_dir {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-        gap: 12px;
-    }
+.tecnologias_sobre h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
 
-    /* Cartões de tecnologias com CORES INVERTIDAS */
-    .sobre_tec {
-        background-color: #795c47; /* Fundo marrom escuro */
-        padding: 12px 15px;
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s ease-in-out, background-color 0.2s ease;
-    }
+.container_tecs_dir {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
 
-    .sobre_tec p {
-        color: #F4E7DE; /* Texto claro */
-        font-size: 16px;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-    }
+.sobre_tec {
+    background-color: #795c47;
+    padding: 12px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+}
 
-    /* Garante que os ícones coloridos de marcas fiquem brancos/claros para dar contraste no fundo marrom */
-    .sobre_tec p i {
-        color: #F4E7DE !important; /* O !important garante que o tom claro venha acima do style do HTML */
-    }
+.sobre_tec p {
+    color: #F4E7DE;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 
-    /* Efeito de hover atualizado para os novos cartões escuros */
-    .sobre_tec:hover {
-        transform: translateY(-3px);
-        background-color: #553c2a; /* Escurece um tom do marrom ao passar o mouse */
-    }
+.sobre_tec p i {
+    color: #F4E7DE !important;
+}
+
+.sobre_tec:hover {
+    transform: translateY(-3px);
+    background-color: #553c2a;
+}
+
+/*
+-- Section Projetos --
+*/
+
+#sec_projetos {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.div_projetos {
+    width: 100%;
+    padding: 40px 15%;
+}
+
+.container_projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card_projeto {
+    background-color: rgba(208, 199, 193, 0.25);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card_projeto:hover {
+    transform: translateY(-5px);
+}
+
+.capa_projeto {
+    width: 100%;
+    height: 180px;
+    background-color: #d0c7c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.capa_projeto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudo_projeto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.conteudo_projeto h3 {
+    font-size: 22px;
+    color: #6F4E37;
+    margin-bottom: 10px;
+}
+
+.conteudo_projeto p {
+    font-size: 15px;
+    color: #553c2a;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.tags_projeto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin-top: auto;
+}
+
+.tags_projeto span {
+    background-color: #795c47;
+    color: #F4E7DE;
+    font-size: 13px;
+    padding: 4px 10px;
+    border-radius: 12px;
+}
+
+.botoes_projeto {
+    display: flex;
+    gap: 10px;
+}
+
+.btn_projeto {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: 2px solid #6F4E37;
+    border-radius: 20px;
+    color: #6F4E37;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn_projeto:hover {
+    background-color: #6F4E37;
+    color: #F4E7DE;
+}
+
+/*
+-- Section Certificados --
+*/
+
+#sec_certificados {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.div_certificados {
+    width: 100%;
+    padding: 40px 15%;
+}
+
+.container_certificados {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card_certificado {
+    background-color: rgba(208, 199, 193, 0.25);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+}
+
+.icone_certificado i {
+    font-size: 30px;
+    color: #6F4E37;
+}
+
+.info_certificado {
+    flex-grow: 1;
+}
+
+.info_certificado h3 {
+    font-size: 18px;
+    color: #6F4E37;
+}
+
+.info_certificado p {
+    font-size: 14px;
+    color: #795c47;
+}
+
+.info_certificado small {
+    font-size: 12px;
+    color: #8c7361;
+}
+
+.link_certificado i {
+    font-size: 24px;
+    color: #6F4E37;
+    transition: transform 0.2s ease;
+}
+
+.link_certificado:hover i {
+    transform: scale(1.2);
+}
+
+/*
+-- Section Contato --
+*/
+
+#sec_contato {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.div_contato {
+    width: 100%;
+    padding: 40px 15%;
+}
+
+.container_contato {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.card_contato {
+    background-color: #795c47;
+    padding: 25px 20px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card_contato i {
+    font-size: 32px;
+    color: #F4E7DE;
+}
+
+.card_contato h3 {
+    font-size: 20px;
+    color: #F4E7DE;
+}
+
+.card_contato p {
+    font-size: 14px;
+    color: #e2d1c5;
+}
+
+.card_contato a {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #F4E7DE;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.acoes_contato {
+    text-align: center;
+}
+
+.contato_curriculo {
+    background-color: transparent;
+    padding: 12px 30px;
+    border: #6F4E37 2px solid;
+    color: #6F4E37;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease, color 0.3s ease;
+}
+
+.contato_curriculo:hover {
+    transform: scale(1.05);
+    background-color: #6F4E37;
+    color: #F4E7DE;
+}
