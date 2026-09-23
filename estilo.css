@@ -327,6 +327,11 @@ h1, h2, h3, h4, h5, h6, small, p, a {
     justify-content: center;
 }
 
+.capa_projeto i {
+    font-size: 64px;
+    color: #6F4E37;
+}
+
 .capa_projeto img {
     width: 100%;
     height: 100%;
