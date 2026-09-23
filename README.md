@@ -21,7 +21,9 @@ Um site responsivo e bilíngue (Português e Inglês) estruturado com foco na ap
 
 Sintam-se livres para usar a base do código e fazer suas modificações! Comecei este projeto como um estudo de desenvolvimento Web e aproveitei para construir um portfólio limpo, moderno e interativo.
 
-### 🤖 Uso de IA no desenvolvimento
+---
+
+## 🤖 Uso de IA no desenvolvimento
 
 A inteligência artificial foi empregada neste projeto como ferramenta de apoio para otimizar a organização, a revisão estrutural e a geração de alternativas de melhoria no código. Sua utilização não substituiu a análise crítica, o julgamento técnico nem a decisão final do desenvolvedor. Todo conteúdo, lógica e implementação sugeridos com auxílio de IA foram revisados, ajustados e aprovados antes de serem incorporados ao projeto. A ferramenta foi utilizada como suporte para acelerar o desenvolvimento, mantendo a responsabilidade técnica, a consistência e a qualidade final sob controle do autor do projeto.
 
