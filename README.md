@@ -122,4 +122,4 @@ Se você gostou deste projeto ou achou a estrutura útil para os seus estudos, c
 ---
 
 **PORTFÓLIO WEB** 💻  
-*Última atualização: Agosto de 2026*
+*Última atualização: Dezembro de 2026*
