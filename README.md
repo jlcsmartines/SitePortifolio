@@ -46,7 +46,7 @@ A inteligência artificial foi empregada neste projeto como ferramenta de apoio 
 - [x] Sincronização e tradução completa do arquivo internacional (`indexENG.html`).
 - [x] Implementação e estilização das seções de **Projetos** e **Certificados**.
 - [x] Implementação da seção de **Contato** com suporte direto ao WhatsApp.
-- [ ] Inserção das imagens finais/previews dos projetos nos cards.
+- [x] Inserção das imagens finais/previews dos projetos nos cards.
 - [ ] Otimização para dispositivos móveis (Refinamento Mobile-First / Media Queries).
 - [ ] Implementação de modo escuro/claro (*Dark Mode Toggle* via JS).
 
@@ -110,6 +110,12 @@ Acompanhamento do progresso das seções do site:
 - [x] Tradução e sincronização completa para o inglês (`indexENG.html`)
 - [ ] Ajustes finos de responsividade mobile
 
+### 🔄 Histórico de Atualizações Recentes
+
+- **Novembro de 2026:**
+  - Adição do projeto **ISSE - Índice de Segregação Socioespacial** em ambas as páginas (`indexPTBR.html` e `indexENG.html`), com informações técnicas e link direto para o repositório no GitHub.
+  - Atualização da referência de imagem do projeto de figurinhas para `img/projetoFigurinhas.png` e inclusão do preview `img/projetoISSE.png`.
+
 ---
 
 ## ⭐ Avalie o Projeto
@@ -122,4 +128,4 @@ Se você gostou deste projeto ou achou a estrutura útil para os seus estudos, c
 ---
 
 **PORTFÓLIO WEB** 💻  
-*Última atualização: Dezembro de 2026*
+*Última atualização: Novembro de 2026*
